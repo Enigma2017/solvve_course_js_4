@@ -1,0 +1,94 @@
+body {
+    -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    /*position: relative;*/
+    min-width: 320px;
+    margin: auto !important;
+    padding: 0;
+    overflow-x: hidden;
+    /*background-color: rgba(0, 0, 0, 0.78);*/
+  }
+    
+  .container {
+    width: 1170px;
+    margin: auto;
+    padding: 0;
+  }
+    
+  ul, li {
+    -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+    
+  h1, h2, h3, h4, h5, h6, div, header, section, button, span, p, a {
+    -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+  .menu{
+    justify-content: space-between;
+  }
+
+  .header{
+    height: 100vh;
+  }
+
+  h1{
+    font-size: 62px;
+    margin: 48px 0;
+  }
+
+  h2{
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  h3{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .header-btn{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 12px 22px;
+    border: 1px solid green;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.card-found{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+.form-1{
+    background: url(pet2.png) center center no-repeat;
+    position: relative;
+    height: 350px;
+    
+}
+
+.form-search{
+    position: absolute;
+    top: 231px;
+    width: 100%;
+    padding: 76px 25px;
+    border: 1px solid gray;
+}
