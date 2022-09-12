@@ -38,7 +38,6 @@ export default {
         },
         {
           label: "My Dashboard",
-          icon: "pi pi-fw pi-star",
           to: "/myDashboard",
           visible: this.isAuthUser,
         },
@@ -47,6 +46,13 @@ export default {
           icon: "pi pi-fw pi-sign-in",
           to: "/Register",
           visible: !this.isAuthUser,
+        },
+        {
+          label: "Logout",
+          icon: "pi pi-fw pi-sign-in",
+          to: "/Register",
+          command: () => this.$store.commit("user/logout"),
+          visible: this.isAuthUser,
         },
       ];
     },
